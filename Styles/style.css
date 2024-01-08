@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;700&display=swap');
+
+/* Header style */
+.first-banner-img img{
+    margin: 40px 110px; 
+    width: 1120px;
+    height: 600px;
+    border-radius: 16px;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    
+} 
+.first-banner{
+    position: absolute;
+    top: 140px;
+    right: 410px;
+    font-family: 'Merriweather', serif;
+}
+.banner-sub-title{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+  
+}
+.banner-title{
+    color: white;
+    font-weight: 900;
+    font-size: 68px;
+    width: 550px;
+    text-align: center;
+} 
+/* main  */
+ /* first section   */
+
+.off-title{
+    text-align: center;
+    color:orangered;
+    text-align: center;
+    font-size: 80px;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 25px;
+ }
+.off-description{
+    text-align: center;
+    color: orangered;
+    font-size: 20px;
+    font-weight: 500px;
+    font-family: 'Inter', sans-serif;
+   
+ }
+.off-sub-title{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+ }
+.off-img{
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 60%;
+ }
+ /* second banner  */
+ 
+section.bg-banner {
+    background-image: linear-gradient(to left, rgba(245, 246, 252, 0.52), rgb(0 0 0 / 78%)), url(../image/Vectorrr.png);
+    width: 1120px;
+    height: 600px;
+    border-radius: 8px ;
+    background-repeat: no-repeat;
+    justify-content: space-around;
+    margin:80px auto;
+}
+
+.img-content {
+    padding: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.content-left h1 {
+    font-size: 60px;
+    color: white;
+    width: 630px;
+   letter-spacing: 4px;
+   font-family: 'Merriweather', serif;
+}
+
+.content-left p {
+    font-size: 14px;
+    color: white;
+    width: 650px;
+    padding-bottom: 10px;
+    font-family: 'Inter', sans-serif;
+}
+ /* third.section  */
+ .text p span{
+     color: orangered;
+     font-family: 'Inter', sans-serif;
+     
+ }
+ .third-section{
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    width: 1120px;
+    height: 300px;
+    margin: 30px auto;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+   
+ }
+ .text{
+    padding-top: 60px;
+   font-weight: 900;
+   font-family: 'Inter', sans-serif;
+
+ }
+ .btn button{
+    display: inline-flex;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    border: 0px;
+    background: orangered;
+    color:white;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 15px;
+    cursor: pointer;
+ }
+ button:hover{
+    background-color: chocolate;
+
+ }
+ /* Fourth-section  */
+ .fourth-section-img{
+    border-radius: 215px;
+    border: 15px solid orangered;
+    width: 215px;
+    height:215px;
+   display: flex;
+   margin-top: 15px;
+ } 
+ .fourth-section{
+    margin-top: 120px;
+ }
+ .best-offer{
+    display: flex;
+    justify-content:space-evenly; 
+   
+ }
+ .fourth-section-title{
+    color: orangered;
+    font-size: 20px;
+    font-weight: 500px;
+    font-family: 'Inter', sans-serif;
+   
+ }
+ .fourth-section-column h1{
+    font-size: 45px;
+    font-weight: 900;
+    font-family: 'Merriweather', serif;
+ }
+ .fourth-section-column h2{
+    font-size: 40px;
+    color: orangered;
+    font-family: 'Inter', sans-serif;
+ }
+ .fourth-section-column p{
+    width: 380px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+ }
+ /* fifth section  */
+ .discount{
+    margin-top: 100px;
+    margin-bottom: 130px; 
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+ }
+ .discount h1 span{
+    color: orangered;
+    font-size: 60px;
+    font-weight: 900;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+  }
+  .discount h1{
+    font-size: 60px;
+    font-weight: 900;
+    margin-top: 10px;
+    font-family: 'Merriweather', serif;
+  }
+  .discount p{
+    width: 800px;
+    color: gray;
+    margin: auto;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+ 
+/* sixth-section  */
+.portfolio h3{
+    color: orangered;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 200px;
+    margin-top: 100px;
+}
+.portfolio h1{
+    font-size: 45px;
+    font-weight: 900px;
+    margin-top: 5px;
+    margin-left: 195px;
+    font-family: 'Merriweather', serif;
+}
+.portfolio p{
+    color: gray;
+    width: 600px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 200px;
+    margin-top: 5px;
+}
+.portfolio-img img{
+    width: 300px;
+    height: 330px;
+}
+.portfolio-img {
+    display: grid;
+    grid-template-columns: repeat(3,300px);
+    grid-template-rows: 330px;
+    row-gap: 10px;
+    column-gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    
+}
+/* seventh section  */
+.submit-here{
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    width: 1120px;
+    height: 500px;
+    margin: 100px auto;
+}
+#letter-img{
+    height: 130px;
+    width: 130px;
+    padding: 25px 550px 0px 480px;
+}
+.letter h2{
+    font-size: 38px;
+    font-weight: 900;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+.letter p{
+    font-size: 14px;
+    font-weight: 400;
+    width: 600px;
+    text-align: center;
+    padding-left: 250px;
+    color: gray;
+}
+.submit-here form{
+    margin-left: 250px;
+}
+.submit-here form input{
+     width: 400px;
+     height: 50px;
+     border: 0px;
+     border-radius: 1px solid white ;
+     
+}
+.submit-here button{
+    width: 200px;
+    height: 55px;
+    border-radius: 0px 50px 50px 0px;
+    border: 0;
+    background:orangered;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+}
+button:hover{
+    background-color: chocolate;
+}
+/* footer style  */
+footer{
+    background: #070211;
+}
+.footer{ 
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+}
+.footer-column p{
+    width: 300px;
+    font-size: 16px;
+    font-weight: 500;
+}
+hr{
+   width: 80%;
+    text-align: left;
+    margin:auto; 
+} 
+.footer-img {
+  justify-content: center;
+  align-items: center;
+   margin-inline-start: 505px;
+} 
+.footer-text {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: auto;
+}
